@@ -1,0 +1,1 @@
+# simulador-apuestas-kelly-trueskill
