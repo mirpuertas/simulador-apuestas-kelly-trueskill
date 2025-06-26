@@ -24,6 +24,8 @@ El script `TTT-Estimaciones.jl` genera predicciones de habilidad (`mu`, `sigma`)
 > Este módulo se basa en el repositorio oficial:  
 > [TrueSkillThroughTime.jl](https://github.com/glandfried/TrueSkillThroughTime.jl)  
 > Autor: Gustavo Landfried ([@glandfried](https://github.com/glandfried))
+>
+> Landfried, G., & Mocskos, E. (2025). *TrueSkill Through Time: Reliable Initial Skill Estimates and Historical Comparability with Julia, Python, and R*. Journal of Statistical Software, 112(6), 1–41. https://doi.org/10.18637/jss.v112.i06
 
 ## Variantes del Simulador de Apuestas
 
