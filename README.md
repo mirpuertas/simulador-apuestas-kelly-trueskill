@@ -20,13 +20,6 @@ El script `TTT-Estimaciones.jl` genera predicciones de habilidad (`mu`, `sigma`)
 - `predicciones_wta.csv`, con columnas como:  
   `winner`, `loser`, `m_winner`, `s_winner`, `b_winner`, `m_loser`, `s_loser`, `b_loser`, `date`
 
-> **Autoria del TrueSkill**:  
-> Este módulo se basa en el repositorio oficial:  
-> [TrueSkillThroughTime.jl](https://github.com/glandfried/TrueSkillThroughTime.jl)  
-> Autor: Gustavo Landfried ([@glandfried](https://github.com/glandfried))
->
-> Landfried, G., & Mocskos, E. (2025). *TrueSkill Through Time: Reliable Initial Skill Estimates and Historical Comparability with Julia, Python, and R*. Journal of Statistical Software, 112(6), 1–41. https://doi.org/10.18637/jss.v112.i06
-
 ## Variantes del Simulador de Apuestas
 
 Este proyecto aplica el criterio de **Kelly** sobre predicciones de habilidad generadas por TrueSkill Through Time (TTT). Se incluyen dos versiones del simulador:
@@ -53,3 +46,17 @@ https://kelly-causal-2025-v2.streamlit.app
 
 Ambos simuladores requieren un archivo `.csv` con predicciones generadas por `TTT-Estimaciones.jl`. Para replicar el análisis del trabajo final, se pueden utilizar directamente los archivos dentro de `inferencia/`.
 
+## Autor
+
+Miguel Ignacio Rodríguez Puertas · [@mirpuertas](https://github.com/mirpuertas)\
+Trabajo final de la materia *Inferencia Bayesiana Causal*  
+Universidad Nacional de San Martín (1.º Cuatrimestre 2025).
+
+## Cita y Créditos
+
+> **TrueSkill Through Time** se basa en el repositorio oficial:  
+> [TrueSkillThroughTime.jl](https://github.com/glandfried/TrueSkillThroughTime.jl)  
+> Autor: Gustavo Landfried · [@glandfried](https://github.com/glandfried)
+>
+> **Referencia académica:**  
+> Landfried, G., & Mocskos, E. (2025). *TrueSkill Through Time: Reliable Initial Skill Estimates and Historical Comparability with Julia, Python, and R*. Journal of Statistical Software, 112(6), 1–41. https://doi.org/10.18637/jss.v112.i06
